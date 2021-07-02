@@ -8,8 +8,15 @@ def generate_random_name(employees:set):
     employees.remove(name)
     return name
 
-
-employees = ['Zohar','Shadi','Ali','Nataliya','Miras','Anita','Or','Kfir','Liron','Vadim','Dotan','Gil']
+names = open('names.txt','r+')
+employees = []
+while True:
+    line = names.readline()
+    if not line:
+        break
+    employees.append(line)
+names.close()
+# employees = ['Zohar','Shadi','Ali','Nataliya','Miras','Anita','Or','Kfir','Liron','Vadim','Dotan','Gil']
 sg.theme('Light Blue')
 
 layout = [[sg.Text('Click \'Generate\' to generate a random team member name')],
