@@ -10,7 +10,7 @@ Open a cmd window (or terminal if you're on Mac) and cd into this projects' dire
 Now run this command:</br>
 <code>pyinstaller --onefile --add-data "./names.txt;." --windowed --icon=bmc.ico name_generator.py</code>
 </br>if you're on mac run this command:</br>
-<code>pyinstaller -F --onefile --add-data "./names.txt:." --windowed --icon=bmc.ico name_generator.py</code>
+<code>pyinstaller --onefile --add-data "./names.txt:." --windowed --icon=bmc.ico name_generator.py</code>
 </br>It should run for a few minutes.</br>
 Next, open File Explorer (Finder if you're on Mac) to the projects directory and inside the <i>dist</i> directory you should find your executable.</br>
 <bold>In the same directory as the executable</bold> create file called "names.txt" and write names in it (each name in a new line).</br>
