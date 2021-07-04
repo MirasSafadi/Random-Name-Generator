@@ -2,8 +2,8 @@
 <h3>Instructions to run:</br></h3>
 if you don't have python installed, go ahead and do it.
 
-install pyinstaller from pip using this command:</br>
-<code>pip install pyinstaller</code>
+install pyinstaller and pysimplegui from pip using this command:</br>
+<code>pip install pyinstaller pysimplegui</code>
 
 Open a cmd window (or terminal if you're on Mac) and cd into this projects' directory
 <code>cd PATH/TO/PROJECT/DIRECTORY</code></br>
